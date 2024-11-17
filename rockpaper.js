@@ -83,7 +83,7 @@ function RespondToClick(myChoice) {
         // return the result
         resultsCounter.innerText = `Your Score: ${myScore}, computer score: ${compScore}`;
         if (myScore===5 || compScore ===5) {
-            finalResult.setAttribute("style", "background-color: black; color:white; font-size: 30px;")
+            finalResult.setAttribute("style", "background-color: red; color:white; font-size: 30px;")
             if (myScore===5) finalResult.innerText = 'You win by reaching 5 points!';
             else finalResult.innerText = 'Computer wins by reaching 5 points!';
             myScore=0;
